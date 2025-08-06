@@ -31,6 +31,3 @@ Whether you're a student, a startup, a shop owner, or a non-coder — **DataCrux
 * 💻 Flask + HTML/CSS/JS (for UI)
 * 📈 Plotly & seaborn (for visualizations)
 
-
-
-Let me know if you want badges, logo, or a README version too.
