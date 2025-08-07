@@ -28,6 +28,6 @@ Whether you're a student, a startup, a shop owner, or a non-coder — **DataCrux
 
 *  LangGraph + Groq (for multi-step AI workflows)
 *  Python + Pandas (for data handling)
-*  Flask + HTML/CSS/JS (for UI)
+*  Django + HTML/CSS/JS (for UI)
 *  Plotly & seaborn (for visualizations)
 
