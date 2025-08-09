@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Data Insights</h2>
+    <div>
+        <a href="{{ url_for('main.report') }}" class="btn btn-outline-primary me-2">
+            <i class="bi bi-download me-2"></i>Download Report
+        </a>
+        <a href="{{ url_for('main.dashboard') }}" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left me-2"></i>Back to Dashboard
+        </a>
+    </div>
+</div>
+
+<div class="alert alert-info">
+    <i class="bi bi-info-circle me-2"></i>These visualizations help you understand patterns and relationships in your data.
+</div>
+
+{% for graph in graphs %}
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        {{ graph|safe }}
+    </div>
+</div>
+{% endfor %}
+
+<div class="text-center mt-4">
+    <a href="{{ url_for('main.predict') }}" class="btn btn-primary btn-lg">
+        <i class="bi bi-lightning me-2"></i>Run Predictions
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,10 @@
+# .gitignore
+.env
+__pycache__/
+venv/
+uploads/
+*.pyc
+*.pdf
+*.DS_Store
+.vscode/
+.idea/
